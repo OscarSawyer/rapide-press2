@@ -3259,5 +3259,8 @@ input, select, textarea {
 	font-style: oblique;
 }
 .hype h2{
-	font-size:xx-large !important;
+	font-size:xx-large;
+}
+#bodystyle{
+	background-color:#5db8cc;
 }
