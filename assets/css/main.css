@@ -2301,7 +2301,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #dddddd;
+				/* border-top: solid 1px #dddddd; */
 				padding: 0.5em 0;
 			}
 
@@ -2509,7 +2509,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #dddddd;
+			/* border: solid 1px #dddddd; */
 			border-left: 0;
 			border-right: 0;
 		}
