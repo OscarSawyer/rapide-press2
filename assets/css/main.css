@@ -3149,7 +3149,7 @@ input, select, textarea {
 
 	/*CUSTOMIZING STYLES*/
 	#header header h1{
-		color: rgb(16, 16, 119);
+		color: rgb(20, 20, 140);
 	}
 	 html{
 		background-image: url(BUBBLE.png);
@@ -3261,6 +3261,94 @@ input, select, textarea {
 .hype h2{
 	font-size:xx-large;
 }
+.hype2{
+	color:#0e62c1e0;
+}
+#warninghyper{
+	color:red;
+	text-decoration:line-through;
+}
 #bodystyle{
 	background-color:#5db8cc;
 }
+
+
+#category{
+	display:flex;
+	list-style: none;
+	padding:0;
+	gap:20px;
+	flex-wrap:wrap;
+}
+.category{
+	width:40%;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:flex-start;
+	overflow:hidden;
+}
+.describe{
+	margin-top:10px;
+	font-size: 1rem;
+	text-align:center;
+	color:orangered;
+}
+#category img{
+	width:100%;
+	height:auto;
+	object-fit:cover;
+}.content h2,p{
+	color:white;
+}
+
+.pricing1{
+	background-color: #0e62c1e0;
+}
+.pricing2{
+	background-color: rgb(235, 160, 32);
+}
+.major h2{
+	color:orange;
+}
+#bluelast, #bluesecond{
+	color: #0e62c1e0;
+}
+
+
+/*watsapp and call button styles*/
+.button.primary, .call-button {
+	font-size: 30px; /* size of icons */
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff; /* icon color */
+	background-color: #25D366; /* WhatsApp green for the first button */
+	margin-right: 10px; /* space between buttons */
+	text-decoration: none;
+  }
+  
+  .call-button {
+	background-color: #4CAF50; /* example color for call button */
+  }
+
+  .FIT{
+	padding:0;
+  }
+
+
+  /*improving the welcome button*/
+  .actions .button {
+	padding: 20px 30px;       /* Increase padding for more space */
+	line-height: 1.4;         /* Adjust line spacing */
+	font-size: 16px;          /* Set font size */
+	display: inline-block;    /* Make sure it's inline-block */
+	white-space: normal;      /* Allow text to wrap */
+	text-align: center;       /* Center the text */
+	height: auto;             /* Let height adjust to content */
+	background-color:#0e62c1e0; 
+	color:white;
+  }
