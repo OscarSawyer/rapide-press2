@@ -3352,3 +3352,47 @@ input, select, textarea {
 	background-color:#0e62c1e0; 
 	color:white;
   }
+
+
+
+
+
+/* section with images and prices */
+
+
+/* gallery container remains a flex wrapping two per row */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top:50px;
+  background-color: #5db8cc;
+  border-radius: 20px;
+}
+
+/* each card flex basis adjusted to exactly 48% to fit two per row with gap */
+.image-card {
+  flex: 0 1 48%;
+  text-align: center;
+}
+
+/* oval shape remains; ensure consistent aspect ratio */
+.image-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  /* oval: half the height, full width */
+  border-radius: 50% / 50%;
+  border: 3px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* caption styling */
+.caption {
+  margin-top: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
