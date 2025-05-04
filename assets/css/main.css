@@ -3396,3 +3396,13 @@ input, select, textarea {
   font-weight: 600;
   color: #333;
 }
+
+
+/* STYLYING THE GRAND HEADER */
+.orange-text {
+	color: rgb(231, 153, 8);
+  }
+  
+  .blue-text {
+	color: blue;
+  }
