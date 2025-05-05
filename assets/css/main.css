@@ -3379,7 +3379,7 @@ input, select, textarea {
 
 /* Style for image cards with responsive sizing */
 .image-card {
-	width: 60vw; /* 40% of viewport width */
+	width: 80vw; /* 40% of viewport width */
 	max-width: 250px; /* Optional: cap maximum size for larger screens */
 	height: auto;
 	display: flex;
