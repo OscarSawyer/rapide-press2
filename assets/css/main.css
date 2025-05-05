@@ -3382,7 +3382,7 @@ input, select, textarea {
   width: 100%;
   height: auto;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+  object-fit: contain;
   /* oval: half the height, full width */
   border-radius: 50% / 50%;
   border: 3px solid #ccc;
