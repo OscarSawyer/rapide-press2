@@ -3377,25 +3377,48 @@ input, select, textarea {
   text-align: center;
 }
 
+/* Style for image cards with responsive sizing */
+.image-card {
+	width: 40vw; /* 40% of viewport width */
+	max-width: 250px; /* Optional: cap maximum size for larger screens */
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 2vh 1vw; /* Vertical and horizontal spacing */
+  }
+  
+  /* Style images to be oval and responsive */
+  .image-card img {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 4 / 3; /* Maintain oval shape */
+	object-fit: contain;
+	border-radius: 50% / 50%; /* Oval shape */
+	border: 0.3vh solid #ccc; /* Border with responsive thickness */
+	box-shadow: 0 0.4vh 0.8vh rgba(0, 0, 0, 0.1);
+  }
+
 /* oval shape remains; ensure consistent aspect ratio */
-.image-card img {
+/* .image-card img {
   width: 100%;
   height: auto;
   aspect-ratio: 4 / 3;
-  object-fit: contain;
+  object-fit: contain; */
   /* oval: half the height, full width */
-  border-radius: 50% / 50%;
+  /* border-radius: 50% / 50%;
   border: 3px solid #ccc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* caption styling */
-.caption {
+/* .caption {
   margin-top: 8px;
   font-size: 1rem;
   font-weight: 600;
   color: #333;
-}
+} */
 
 
 /* STYLYING THE GRAND HEADER */
