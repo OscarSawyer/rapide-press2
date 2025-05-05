@@ -3373,14 +3373,14 @@ input, select, textarea {
 
 /* each card flex basis adjusted to exactly 48% to fit two per row with gap */
 .image-card {
-  flex: 0 1 48%;
+  flex: 1 1 48%;
   text-align: center;
 }
 
 /* Style for image cards with responsive sizing */
 .image-card {
-	width: 80vw; /* 40% of viewport width */
-	max-width: 250px; /* Optional: cap maximum size for larger screens */
+	width: 100vw; /* 40% of viewport width */
+	max-width: 500px; /* Optional: cap maximum size for larger screens */
 	height: auto;
 	display: flex;
 	flex-direction: column;
