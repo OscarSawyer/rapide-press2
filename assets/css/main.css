@@ -3429,3 +3429,54 @@ input, select, textarea {
   .blue-text {
 	color: blue;
   }
+
+
+/* 
+  styling the welcome button */
+  /* Updated button styles with matching colors */
+#topimage .button {
+	font-size: 1.2em;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	opacity: 0;
+	transform: scale(0);
+	animation: appearGrowColor 2s forwards;
+	background-color: #FF7F50; /* Coral Orange (matches orange theme) */
+	color: #FFFFFF; /* White text */
+	text-align: center;
+	transition: background-color 0.5s, transform 0.5s;
+  }
+  
+  /* Hover effect with a darker shade for better interaction */
+  #topimage .button:hover {
+	background-color: #E76F3E; /* Darker orange */
+  }
+  
+  /* Animation keyframes with matching color scheme */
+  @keyframes appearGrowColor {
+	0% {
+	  opacity: 0;
+	  transform: scale(0);
+	  background-color: #FF7F50; /* start with orange */
+	}
+	50% {
+	  opacity: 1;
+	  transform: scale(1.2);
+	  background-color: #FFA07A; /* Light Salmon (light blue complement) */
+	}
+	100% {
+	  opacity: 1;
+	  transform: scale(1);
+	  background-color: #FF7F50; /* back to orange */
+	}
+  }
+  
+  /* Optional: Make the button more responsive on mobile devices */
+  @media (max-width: 600px) {
+	#topimage .button {
+	  font-size: 1em;
+	  padding: 12px 24px;
+	}
+  }
